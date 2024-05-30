@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    border:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/**nav bar**/
+.navbar{
+    height: 130px;
+    width: 100%;
+    background-color:#1E2328;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.navlogo{
+    height: 30px;
+    width:220px; 
+    margin-top:5px;
+    margin-left: 5px; 
+background-size: cover;
+background-color:#1E2328;
+    background-image: url(logo.jpg.jpg);
+}
+.navitems {
+    height:50px;
+    background-color: #1E2328;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+
+  .items {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px
+    
+}
+.button1{
+height: 30px;
+width: 100px;
+color:#f5b301 ;
+margin-left: 70px;
+text-align: center;
+margin-top: 10px;
+font-weight: 700;
+border-radius: 4px;
+
+}
+.navitems :hover{
+    color: #f5b301;
+}
+
+/**homesection**/
+.homesection{
+    background-color: #1E2328;
+     height: 270px;
+     color: #FED05E;
+    font-weight: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.subsection{
+ margin-left:2px;
+}
+
+/**Aboutsec**/
+.aboutsect
+{  
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 400px;
+width: 100%;
+background-color:white;
+    color: black;
+}
+
+
+.homimg{
+
+    height: 270px;
+    width: 260px;
+    background-image: url(img2home.jpg.jpg);
+    background-size:cover;
+    margin: 20px;
+}
+
+.about1{
+    margin-top: 30px;
+    height:70px;
+    width:50%;
+    font-size: 1 rem;
+    color:black;
+}
+.border{
+    border-top:2px solid black;
+}
+
+.cert{
+    height: 300px;
+    background-color: #1E2328;
+    width:100%;
+margin-top: 10px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.courses{ 
+    height: 250px;
+    width: 250px;
+margin: 10px;
+    background-size: contain;
+    background-image:url(images.jpg);
+}
+.box2
+{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    align-items: right;
+    background-size: contain;
+    background-image:url(ai.jpg);
+
+}
+footer{
+    color: #1E2328;
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    text-align:center;
+    
+}
